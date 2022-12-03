@@ -19,4 +19,11 @@ if __name__ == '__main__':
     print(rose.idade)
     for filho in rose.filhos:
         print(filho.nome)
+    rose.sobrenome = 'Diniz'
+    del rose.filhos
+    print(rose.sobrenome)
+    print(luiz.__dict__)
+    print(rose.__dict__)
+
+
 
